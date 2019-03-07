@@ -1,6 +1,5 @@
 #!/bin/bash
 # @dotato
-# TODO - change dir to locate based on where it was installed
 
 # Increment latest tag
 tags=( $(docker images --format '{{.Tag}}' tdalonzo/kali) )
