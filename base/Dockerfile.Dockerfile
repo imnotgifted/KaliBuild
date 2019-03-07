@@ -1,4 +1,4 @@
-FROM kali/kali:base
+FROM tdalonzo/kali:base2
 MAINTAINER dotato
 # Metadata params
 ARG BUILD_DATE
